@@ -1,7 +1,7 @@
 # Tame Visual Studio Editor Tool Tips
 
 <!-- Update the VS Gallery link after you upload the VSIX-->
-Download this extension from the [VS Gallery](https://marketplace.visualstudio.com/vsgallery/097521bb-c432-4436-ba9f-137dcb03d3be)
+Download this extension from the [VS Gallery](https://marketplace.visualstudio.com/items?itemName=KarlShifflettkdawg.TameVisualStudioEditorTooltipsAsync)
 
 ---------------------------------------
 
