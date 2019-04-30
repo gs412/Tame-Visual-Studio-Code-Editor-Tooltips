@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+    <Metadata>
+        <Identity Id="TameVisualStudioEditorToolTips.6c479d4f-3d6f-4b27-a581-610d97822681" Version="2.5" Language="en-US" Publisher="Karl Shifflett (kdawg)" />
+        <DisplayName>Tame Visual Studio 2019 Editor Tooltips</DisplayName>
+        <Description xml:space="preserve">Tames the Visual Studio Code Editor Tooltips by not showing them unless the left CTRL or left SHIFT key is depressed and the user hovers over the object.  </Description>
+        <License>LICENSE.txt</License>
+        <Icon>Resources\ToolTip90x90.png</Icon>
+        <PreviewImage>Resources\ToolTip175x175.png</PreviewImage>
+        <Tags>Visual Studio ToolTips, Tool Tips, disable tool tip</Tags>
+    </Metadata>
+    <Installation>
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0, 17.0)" />
+    </Installation>
+    <Dependencies>
+        <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+    </Dependencies>
+    <Prerequisites>
+        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
+    </Prerequisites>
+    <Assets>
+        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%;PkgdefProjectOutputGroup|" />
+        <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="%CurrentProject%" Path="|%CurrentProject%|" />
+    </Assets>
+</PackageManifest>
