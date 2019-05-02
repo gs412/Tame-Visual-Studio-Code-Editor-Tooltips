@@ -9,9 +9,9 @@ namespace TameVisualStudioEditorToolTips
     {
         public const string Id = "TameVisualStudioEditorToolTips.6c479d4f-3d6f-4b27-a581-610d97822681";
         public const string Name = "Tame Visual Studio Editor Tooltips";
-        public const string Description = @"Tames the Visual Studio Code Editor Tooltips by not showing them unless the left CTRL or left SHIFT key is depressed and the user hovers over the object.  ";
+        public const string Description = @"Tames the Visual Studio Code Editor Tooltips by not showing them unless the CTRL or SHIFT key is depressed and the user hovers over the object.  ";
         public const string Language = "en-US";
-        public const string Version = "2.5.1";
+        public const string Version = "2.5.2";
         public const string Author = "Karl Shifflett (kdawg)";
         public const string Tags = "Visual Studio ToolTips, Tool Tips, disable tool tip";
     }

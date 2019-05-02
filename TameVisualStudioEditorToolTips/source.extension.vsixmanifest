@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="TameVisualStudioEditorToolTips.6c479d4f-3d6f-4b27-a581-610d97822681" Version="2.5.1" Language="en-US" Publisher="Karl Shifflett (kdawg)" />
+        <Identity Id="TameVisualStudioEditorToolTips.6c479d4f-3d6f-4b27-a581-610d97822681" Version="2.5.2" Language="en-US" Publisher="Karl Shifflett (kdawg)" />
         <DisplayName>Tame Visual Studio Editor Tooltips</DisplayName>
-        <Description xml:space="preserve">Tames the Visual Studio Code Editor Tooltips by not showing them unless the left CTRL or left SHIFT key is depressed and the user hovers over the object.  </Description>
+        <Description xml:space="preserve">Tames the Visual Studio Code Editor Tooltips by not showing them unless the CTRL or SHIFT key is depressed and the user hovers over the object.  </Description>
         <License>LICENSE.txt</License>
         <Icon>Resources\ToolTip90x90.png</Icon>
         <PreviewImage>Resources\ToolTip175x175.png</PreviewImage>

@@ -8,7 +8,9 @@ Download this extension from the [VS Gallery](https://marketplace.visualstudio.c
 ## Feature
 Getting tired of seeing Visual Studio code editor tooltips when you're presenting?  They flash immediately when you're moving your mouse.  Very distracting for you and your viewers.
 
-This extension "Tames" the Visual Studio 2017 & 2019 code editor Tooltips by not showing them unless the LEFT CTRL key or LEFT SHIFT is depressed and the user hovers over the object.  
+This extension "Tames" the Visual Studio 2017 & 2019 code editor Tooltips by not showing them unless the CTRL or SHIFT is depressed and the user hovers over the object.  
+
+Recommending using the SHIFT key to show the tooltip.  The CTRL key can have a negative side effect if the object you're hovering over is clickable.
 
 ### Building
 The project was built using Visual Studio 2019.
