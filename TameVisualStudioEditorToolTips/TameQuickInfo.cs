@@ -35,7 +35,7 @@
             ThreadHelper.JoinableTaskFactory.Run(async delegate {
                 // now on the UI thread
                 await ThreadHelper.JoinableTaskFactory.SwitchToMainThreadAsync();
-                isKeyDown = Keyboard.IsKeyDown(Key.LeftShift) || Keyboard.IsKeyDown(Key.RightShift) || Keyboard.IsKeyDown(Key.LeftShift)  || Keyboard.IsKeyDown(Key.RightCtrl);
+                isKeyDown = Keyboard.IsKeyDown(Key.LeftShift) || Keyboard.IsKeyDown(Key.RightShift) || Keyboard.IsKeyDown(Key.LeftCtrl)  || Keyboard.IsKeyDown(Key.RightCtrl);
             });
 
             // back on background thread
