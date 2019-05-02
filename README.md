@@ -5,6 +5,9 @@ Download this extension from the [VS Gallery](https://marketplace.visualstudio.c
 
 ---------------------------------------
 
+## Visual Studio 2017 Support - On Hold
+I discovered a problem with the way references are resolved with the package on Visual Studio 2017.  I'm working with Microsoft to resolve the issue.
+
 ## Feature
 Getting tired of seeing Visual Studio code editor tooltips when you're presenting?  They flash immediately when you're moving your mouse.  Very distracting for you and your viewers.
 
