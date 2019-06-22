@@ -13,8 +13,12 @@
     [Name("Tame Quick Info")]
     [Order(Before = "Default Quick Info Presenter")]
     [ContentType("CSharp")]
+    [ContentType("Basic")]
     [ContentType("XAML")]
     [ContentType("XML")]
+    [ContentType("HTML")]
+    [ContentType("CSS")]
+    [ContentType("JScript")]
     internal class TameQuickInfo : IAsyncQuickInfoSourceProvider {
 
         public IAsyncQuickInfoSource TryCreateQuickInfoSource(ITextBuffer textBuffer) {
